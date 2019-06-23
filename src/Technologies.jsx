@@ -9,16 +9,16 @@ class Technologies extends Component {
     render() { 
         return ( 
             <Container className='project-container'>
-                <Row className='technologies'>
+                <Row className='asymmetric-projects'>
                     <Col>
+                    <div style={{paddingTop: '3vh', color: 'white'}}>
                     <h1>Tech I Use</h1>
-                    <div style={{paddingTop: '3vh'}}>
-                        <i class="devicon-ruby-plain-wordmark hvr-grow"></i>
-                        <i class="devicon-rails-plain-wordmark hvr-grow"></i>
-                        <i class="devicon-javascript-plain hvr-grow" ></i>
-                        <i class="devicon-postgresql-plain hvr-grow"></i>
-                        <i class="devicon-react-original-wordmark hvr-grow"></i>
-                        <i class="devicon-nodejs-plain-wordmark hvr-grow"></i>
+                        <i className="devicon-ruby-plain-wordmark hvr-grow"></i>
+                        <i className="devicon-rails-plain-wordmark hvr-grow"></i>
+                        <i className="devicon-javascript-plain hvr-grow" ></i>
+                        <i className="devicon-postgresql-plain-wordmark hvr-grow"></i>
+                        <i className="devicon-react-original-wordmark hvr-grow"></i>
+                        <i className="devicon-nodejs-plain-wordmark hvr-grow"></i>
                     </div>
                     <Button style={{marginTop: '5vh'}}>Resume</Button>
                     </Col>

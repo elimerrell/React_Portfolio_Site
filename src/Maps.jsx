@@ -23,7 +23,7 @@ class Maps extends Component {
                                 <Card.Footer>
                                 <i className="devicon-react-original-wordmark colored"></i>
                                 <i className="devicon-ruby-plain colored"></i>
-                                <i class="devicon-amazonwebservices-original"></i>
+                                <i className="devicon-amazonwebservices-original"></i>
                                 </Card.Footer>
                             </Card>
                             <Card className="hvr-grow">

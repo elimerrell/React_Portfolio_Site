@@ -26,7 +26,7 @@
   padding-left: 20vh;
   padding-right: 20vh;
   padding-top: 5vh; 
-  padding-bottom: 5vh; 
+  padding-bottom: 3vh; 
 }
 
 .App-link {
@@ -35,7 +35,7 @@
 
 .asymmetric-projects {
 	position: relative;
-  background-color: rgb(6, 8, 8);
+  background-color: #343a40;
   padding: 10vh; 
 }
 
@@ -46,7 +46,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgb(210, 213, 214);
+	background-color: #007bff;
 	transform-origin: top left;
 	transform: skewY(-3deg);
 	z-index: -10;
@@ -59,7 +59,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgb(210, 213, 214);
+	background-color: #007bff;
 	transform-origin: bottom left;
 	transform: skewY(3deg);
 	z-index: -10;
@@ -67,7 +67,7 @@
 
 .asymmetric-maps {
 	position: relative;
-  background-color: rgb(6, 8, 8);
+  background-color :#343a40;
   padding: 10vh; 
 }
 
@@ -78,7 +78,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgb(210, 213, 214);
+	background-color: #007bff;
 	transform-origin: top right;
 	transform: skewY(-3deg);
 	z-index: -10;
@@ -91,7 +91,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgb(210, 213, 214);
+	background-color: #007bff;
 	transform-origin: bottom right;
 	transform: skewY(3deg);
 	z-index: -10;
@@ -111,16 +111,18 @@ i {
   margin: 2vh;  
 }
 
-.info { 
-  background-color: #fff; 
-  padding: 3vh; 
-  
+.info {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 1.5vh;
+  margin-bottom: 25vh; 
 }
 
 .technologies {
   position: relative;
   color: #fff; 
-  background-color: rgb(6, 8, 8);
+  background-color: #343a40;
   padding: 10vh; 
 }
 
@@ -141,3 +143,48 @@ i {
 .hvr-grow:active {
   transform: scale(1.1);
 }
+
+ /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+ .icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 100%;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #007bff;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.github {
+  background: #000;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+} 
