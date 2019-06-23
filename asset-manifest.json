@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/elimerrell/static/css/main.d85ef419.chunk.css",
+    "main.js": "/elimerrell/static/js/main.b5a88df2.chunk.js",
+    "main.js.map": "/elimerrell/static/js/main.b5a88df2.chunk.js.map",
+    "runtime~main.js": "/elimerrell/static/js/runtime~main.9dc1bf31.js",
+    "runtime~main.js.map": "/elimerrell/static/js/runtime~main.9dc1bf31.js.map",
+    "static/js/2.c49f4741.chunk.js": "/elimerrell/static/js/2.c49f4741.chunk.js",
+    "static/js/2.c49f4741.chunk.js.map": "/elimerrell/static/js/2.c49f4741.chunk.js.map",
+    "index.html": "/elimerrell/index.html",
+    "precache-manifest.297f6010ad9ba2788cf068a145595ee3.js": "/elimerrell/precache-manifest.297f6010ad9ba2788cf068a145595ee3.js",
+    "service-worker.js": "/elimerrell/service-worker.js",
+    "static/css/main.d85ef419.chunk.css.map": "/elimerrell/static/css/main.d85ef419.chunk.css.map",
+    "static/media/App.css": "/elimerrell/static/media/background.405a1f95.jpg",
+    "static/media/logo.jpg": "/elimerrell/static/media/logo.087f3e1b.jpg"
+  }
+}
