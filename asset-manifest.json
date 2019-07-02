@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/React_Portfolio_Site/static/css/main.81cf04af.chunk.css",
-    "main.js": "/React_Portfolio_Site/static/js/main.46d5f772.chunk.js",
-    "main.js.map": "/React_Portfolio_Site/static/js/main.46d5f772.chunk.js.map",
+    "main.css": "/React_Portfolio_Site/static/css/main.18c3bf20.chunk.css",
+    "main.js": "/React_Portfolio_Site/static/js/main.daf1fa7c.chunk.js",
+    "main.js.map": "/React_Portfolio_Site/static/js/main.daf1fa7c.chunk.js.map",
     "runtime~main.js": "/React_Portfolio_Site/static/js/runtime~main.c3d9f528.js",
     "runtime~main.js.map": "/React_Portfolio_Site/static/js/runtime~main.c3d9f528.js.map",
-    "static/js/2.c49f4741.chunk.js": "/React_Portfolio_Site/static/js/2.c49f4741.chunk.js",
-    "static/js/2.c49f4741.chunk.js.map": "/React_Portfolio_Site/static/js/2.c49f4741.chunk.js.map",
+    "static/js/2.ec0ea0d8.chunk.js": "/React_Portfolio_Site/static/js/2.ec0ea0d8.chunk.js",
+    "static/js/2.ec0ea0d8.chunk.js.map": "/React_Portfolio_Site/static/js/2.ec0ea0d8.chunk.js.map",
     "index.html": "/React_Portfolio_Site/index.html",
-    "precache-manifest.c03d67073585425c41093e589eb13cdf.js": "/React_Portfolio_Site/precache-manifest.c03d67073585425c41093e589eb13cdf.js",
+    "precache-manifest.77e95c29e4eb5cda8394500c5a565a51.js": "/React_Portfolio_Site/precache-manifest.77e95c29e4eb5cda8394500c5a565a51.js",
     "service-worker.js": "/React_Portfolio_Site/service-worker.js",
-    "static/css/main.81cf04af.chunk.css.map": "/React_Portfolio_Site/static/css/main.81cf04af.chunk.css.map",
+    "static/css/main.18c3bf20.chunk.css.map": "/React_Portfolio_Site/static/css/main.18c3bf20.chunk.css.map",
     "static/media/App.css": "/React_Portfolio_Site/static/media/background.405a1f95.jpg",
-    "static/media/logo.jpg": "/React_Portfolio_Site/static/media/logo.087f3e1b.jpg"
+    "static/media/excel-422.jpg": "/React_Portfolio_Site/static/media/excel-422.dc52441e.jpg",
+    "static/media/logo.jpg": "/React_Portfolio_Site/static/media/logo.087f3e1b.jpg",
+    "static/media/merrell-final-map_orig.jpg": "/React_Portfolio_Site/static/media/merrell-final-map_orig.db39f117.jpg",
+    "static/media/white-oak-distribution-2080_orig.jpg": "/React_Portfolio_Site/static/media/white-oak-distribution-2080_orig.89bf9e6a.jpg"
   }
 }
