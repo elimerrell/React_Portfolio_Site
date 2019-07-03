@@ -11,13 +11,13 @@ class Navigation extends Component {
             <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Navbar.Brand href="#home">Elijah Merrell</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
+                {/* <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                     <Nav.Link href="#projects">Technical Projects</Nav.Link>
                     <Nav.Link href="#gis">GIS</Nav.Link>
                     <Nav.Link href="#skills">Skills</Nav.Link>
                     </Nav>
-                </Navbar.Collapse>
+                </Navbar.Collapse> */}
             </Navbar>
          );
     }

@@ -20,7 +20,7 @@ class Technologies extends Component {
                         <i className="devicon-react-original-wordmark hvr-grow"></i>
                         <i className="devicon-nodejs-plain-wordmark hvr-grow"></i>
                     </div>
-                    <Button style={{marginTop: '5vh'}}>Resume</Button>
+                    <Button onClick={this.props.handleShow} style={{marginTop: '5vh'}}>Resume</Button>
                     </Col>
                 </Row>
             </Container>

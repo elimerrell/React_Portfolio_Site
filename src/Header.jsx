@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Container, Col, Row} from 'react-bootstrap'
-import logo from './logo.jpg'
+import logo from './images/logo.jpg'
 
 class Header extends Component {
     constructor(props) {

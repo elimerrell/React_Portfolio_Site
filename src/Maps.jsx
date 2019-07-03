@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, CardDeck, Card } from 'react-bootstrap';
+import { Container, Row, Col, Carousel} from 'react-bootstrap';
+import weatherMap from './images/excel-422.jpg'
+import whiteOak from './images/white-oak-distribution-2080_orig.jpg'
+import illustratorMap from './images/merrell-final-map_orig.jpg'
 
 class Maps extends Component {
     constructor(props) {
@@ -11,46 +14,39 @@ class Maps extends Component {
             <Container className='project-container'>
                 <Row className='asymmetric-maps'>
                     <Col>
-                        <h1 style={{color: 'white'}}>Maps</h1>
-                        <CardDeck className="card-deck">
-                            <Card className="hvr-grow">
-                                <Card.Body>
-                                <Card.Title>WhaleTracker</Card.Title>
-                                <Card.Text>
-                                    A React Native mobile app that allows users to report whale sightings using real-time geolocation and AWS photo uploads. 
-                                </Card.Text>
-                                </Card.Body>
-                                <Card.Footer>
-                                <i className="devicon-react-original-wordmark colored"></i>
-                                <i className="devicon-ruby-plain colored"></i>
-                                <i className="devicon-amazonwebservices-original"></i>
-                                </Card.Footer>
-                            </Card>
-                            <Card className="hvr-grow">
-                                <Card.Body>
-                                <Card.Title>Gnarnia</Card.Title>
-                                <Card.Text>
-                                    A single page application that allows users to get real-time weather for ski resorts around the Western US.
-                                </Card.Text>
-                                </Card.Body>
-                                <Card.Footer>
-                                <i className="devicon-ruby-plain colored"></i>
-                                <i className="devicon-javascript-plain colored"></i>
-                                <i className="devicon-heroku-line-wordmark colored"></i>
-                                </Card.Footer>
-                            </Card>
-                            <Card className="hvr-grow">
-                                <Card.Body>
-                                <Card.Title>Campy</Card.Title>
-                                <Card.Text>
-                                    Campy is an outdoor recreation community where users can search and review outdoor recreation parks and facilities as well as interacting with other members of the Campy community.
-                                </Card.Text>
-                                </Card.Body>
-                                <Card.Footer>
-                                <i className="devicon-ruby-plain colored"></i>
-                                </Card.Footer>
-                            </Card>
-                        </CardDeck>
+                        <h1 style={{color: 'white'}}>Geographic Information Systems</h1>
+                        <Carousel>
+                            <Carousel.Item className="carousel-item">
+                                <img
+                                className="d-block w-100"
+                                src={weatherMap}
+                                />
+                                <Carousel.Caption>
+                                <h3>First slide label</h3>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item className="carousel-item">
+                                <img
+                                className="d-block w-100"
+                                src={whiteOak}
+                                />
+                                <Carousel.Caption>
+                                <h3>Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item className="carousel-item">
+                                <img
+                                className="d-block w-100"
+                                src={illustratorMap}
+                                />
+                                <Carousel.Caption>
+                                <h3>Third slide label</h3>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                        </Carousel>
                     </Col>
                 </Row>
             </Container>
