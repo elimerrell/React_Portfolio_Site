@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82279f6498d59f511982251fdcd5f4b2",
+    "revision": "5c5f074148fd0ed623929e61e421ae38",
     "url": "/React_Portfolio_Site/index.html"
   },
   {
-    "revision": "85f68f59cee34129ea13",
-    "url": "/React_Portfolio_Site/static/css/main.bdc1caeb.chunk.css"
+    "revision": "730d61ae45eec2f2fe84",
+    "url": "/React_Portfolio_Site/static/css/main.0ff252f5.chunk.css"
   },
   {
-    "revision": "78962149d829c7954616",
-    "url": "/React_Portfolio_Site/static/js/2.82391d1f.chunk.js"
+    "revision": "8fd33eb7f4e907119eee",
+    "url": "/React_Portfolio_Site/static/js/2.b4aacd83.chunk.js"
   },
   {
-    "revision": "85f68f59cee34129ea13",
-    "url": "/React_Portfolio_Site/static/js/main.447753db.chunk.js"
+    "revision": "730d61ae45eec2f2fe84",
+    "url": "/React_Portfolio_Site/static/js/main.d6fdb3a5.chunk.js"
   },
   {
     "revision": "dea59bddc68ecb4c2610",
@@ -34,9 +34,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "db39f1179be7722c329a7f002c0c59a4",
     "url": "/React_Portfolio_Site/static/media/merrell-final-map_orig.db39f117.jpg"
-  },
-  {
-    "revision": "89bf9e6ace2304d8da53e3a1e2a75866",
-    "url": "/React_Portfolio_Site/static/media/white-oak-distribution-2080_orig.89bf9e6a.jpg"
   }
 ]);
