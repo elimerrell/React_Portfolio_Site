@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import {Button, Modal} from 'react-bootstrap'
-import Header from './Header.jsx'
+import Header from './components/Header.jsx'
 import './App.css';
-import Navigation from './Navigation.jsx'
-import Projects from './Projects.jsx';
-import Maps from './Maps.jsx'
-import Technologies from './Technologies.jsx'
-import ResumeModal from './ResumeModal.jsx'
+import Navigation from './components/Navigation.jsx'
+import Projects from './components/Projects.jsx';
+import Maps from './components/Maps.jsx'
+import Technologies from './components/Technologies.jsx'
+import ResumeModal from './components/ResumeModal.jsx'
 
 class App extends Component {
   constructor(props) {
