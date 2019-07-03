@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../images/logo.jpg'
+import Contact from '../components/Contact.jsx'
 
 const Header = () => {
     return (
@@ -8,8 +9,7 @@ const Header = () => {
                 <img src={logo} className="App-logo" alt="logo" />
             </header>
             <div className="info">
-                <h1>Elijah Merrell</h1>
-                <h3>Web Developer</h3>
+                <Contact/>
             </div>
         </div>
         );
