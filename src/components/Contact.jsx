@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container,Col, Row, Button } from 'react-bootstrap';
+import { Container,Col, Row } from 'react-bootstrap';
 
 const Contact = () => {
     return ( 
@@ -9,7 +9,6 @@ const Contact = () => {
                     <h1>Elijah Merrell</h1>
                     <h2>Software Engineer</h2>
                     <h4>Geospatial Enthusiast</h4>
-                    <Button className='about-button' variant="primary" size="lg">About Me</Button>
                 </Col>
             </Row>
         </Container>
