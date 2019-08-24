@@ -26,7 +26,11 @@ const ResumeModal = (props) => {
                 <div style={{backgroundColor: 'grey', padding: '1px'}}>
                     <h5>Work Experience</h5>
                 </div>
-                <span><strong>Pulse Secure</strong>, San Jose, CA Software Engineering Intern, May 2019 - Present</span>
+                <span><strong>Pulse Secure</strong>, San Jose, CA Software Engineer, August 2019 - Present</span>
+                <ul>
+                    <li>User interface engineering in JavaScript and React.js</li>
+                </ul>
+                <span><strong>Pulse Secure</strong>, San Jose, CA Software Engineering Intern, May 2019 - August 2019</span>
                 <ul>
                     <li>Refactoring the company’s employee appreciation portal used by 500+ employees worldwide (Ruby on Rails)</li>
                     <li>Integrating React and WebSockets to improve the speed and usability of the Rails application</li>

@@ -7,7 +7,7 @@ const Contact = () => {
             <Row>
                 <Col>
                     <h1>Elijah Merrell</h1>
-                    <h2>Web Developer</h2>
+                    <h2>Software Engineer</h2>
                     <h4>Geospatial Enthusiast</h4>
                     <Button className='about-button' variant="primary" size="lg">About Me</Button>
                 </Col>
